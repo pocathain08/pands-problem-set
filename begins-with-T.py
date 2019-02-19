@@ -3,7 +3,7 @@
 
 import datetime
 
-if datetime.datetime.today().weekday() == 2 and 4:
+if datetime.datetime.today().weekday() == 1 and 3:
     print("Yes - today begins with a T")
 
 else:
