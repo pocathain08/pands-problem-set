@@ -1,4 +1,9 @@
 #python primes.py
 x = int(input ("Please enter a positive integer: "))
 
-if 
+LCD = (((x)//2)+2)
+
+LCD_range = list(range(0, LCD))
+
+
+print (LCD_range)
