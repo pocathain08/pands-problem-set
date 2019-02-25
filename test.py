@@ -1,8 +1,14 @@
 
-import datetime
+x = int(input("Please enter a positive integer: "))
 
-if datetime.datetime.today().weekday() == 2 and 4:
-    print("Yes - today begins with a T")
+LCD = (((x)//2)+2)
+LCD_range = list(range(2, LCD))
 
-else:
-    print ("No - today does not begin with a T.")
+for i in (LCD_range):
+        if x % i != 0:
+                print (x,"is a prime number" )
+
+                break
+# Python tutorial 4.4       
+else: 
+        print (x, "is not a prime number" )
