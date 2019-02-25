@@ -6,9 +6,11 @@ LCD_range = list(range(2, LCD))
 
 for i in (LCD_range):
         if x % i != 0:
-                print ("This is a prime number" )
+                print (x," is a prime number" )
 
                 break
+        
+#else print (x "is not a prime number")
 
                 
         
