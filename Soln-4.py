@@ -4,16 +4,23 @@
 
 x = int(input("Please enter a positive integer: "))
 
-New_list = x
+#New_list = x
 
-while x > 1:
-        for i in range(1, x+1):
-                if i % 2 == 0:
+#while x > 1:
+        #New_list = New_list + i
         
+        #for i in range(1, x+1):
+if x % 2 == 0:
+        New_list = (x//2)      
 
-                elif i % 2 !=0:
+elif x % 2 !=0:
+         New_list = ((x*3)+1)
+
+Print (New_list)
+         
+#Print (New_list)
                         
-        i= i-1
+        #i= i-1
 
 
         
