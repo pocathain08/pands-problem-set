@@ -9,8 +9,9 @@ for i in (LCD_range):
                 print (x,"is a prime number" )
 
                 break
-        
-#else print (x "is not a prime number")
+# Python tutorial 4.4       
+else: 
+        print (x, "is not a prime number" )
 
                 
  

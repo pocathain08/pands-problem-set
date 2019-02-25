@@ -2,8 +2,14 @@
 #
 
 
-my_list = int(input("Please enter a positive integer: "))
+x = int(input("Please enter a positive integer: "))
 
-for i in range(my_list):
-    if i % 2 == 0:
-        print (i//2)
+New_list = x
+
+i= i-1
+
+for i in range(1, x+1):
+        if i % 2 == 0:
+                print (i//2)
+        
+
