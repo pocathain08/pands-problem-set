@@ -6,10 +6,15 @@ x = int(input("Please enter a positive integer: "))
 
 New_list = x
 
-i= i-1
+while x > 1:
+        for i in range(1, x+1):
+                if i % 2 == 0:
+        
 
-for i in range(1, x+1):
-        if i % 2 == 0:
-                print (i//2)
+                elif i % 2 !=0:
+                        
+        i= i-1
+
+
         
 
