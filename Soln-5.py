@@ -6,6 +6,10 @@ LCD_range = list(range(2, LCD))
 
 for i in (LCD_range):
         if x % i != 0:
-                print ("this is a prime number" )
+                print ("This is a prime number" )
+
+                break
+
+                
         
 #print (LCD_range)
