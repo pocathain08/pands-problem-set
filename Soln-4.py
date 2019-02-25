@@ -1,6 +1,9 @@
-# python collatz
-my_list = int (input("please enter a positive integer: "))
+# python collatz 25 Feb 2019
+#
 
-for i in (my_list):
+
+my_list = int(input("Please enter a positive integer: "))
+
+for i in range(my_list):
     if i % 2 == 0:
         print (i//2)
