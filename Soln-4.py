@@ -4,7 +4,7 @@
 
 x = int(input("Please enter a positive integer: "))
 
-#New_list = x
+New_list = ()
 
 #while x > 1:
         #New_list = New_list + i
@@ -16,12 +16,19 @@ if x % 2 == 0:
 elif x % 2 !=0:
          New_list = ((x*3)+1)
 
-Print (New_list)
+Print: (New_list)
          
 #Print (New_list)
                         
         #i= i-1
 
 
-        
+def colz(n):    # write Collatz series up to n
+    """Print a Collatz series up to n."""
+    a, b = 0, 1
+    while a < n:
+        print(a, end=' ')
+        a, b = b, a+b
+    print()
 
+fib (2000)
