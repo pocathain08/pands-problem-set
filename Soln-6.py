@@ -3,7 +3,7 @@
 
 #Please enter a sentence:
 my_str = (input("Please enter a sentence: "))
-print (my_str[0])
+print (my_str word[0])
 
 # Python tutorial 3.1.2 Strings
 #(var1 = 'Hello World!'
