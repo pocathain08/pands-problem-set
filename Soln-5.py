@@ -1,5 +1,5 @@
 #python primes.py
-x = int(input("Please enter a positive integer: "))
+
 
 y = (((x)//2)+2)
 #LCD_range = list(range(2, LCD))

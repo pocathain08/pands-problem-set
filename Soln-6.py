@@ -9,7 +9,7 @@ my_str = (input("Please enter a sentence: "))
 ssplit = my_str.split()
 for i in ssplit:
     #if i == 1:
-        print (i(1))
+        print (i)
     #if i %2 != 1:
         #print (i)
 
