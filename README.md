@@ -9,6 +9,7 @@ This is the research from problem set 1, please see the following line for detai
  Question 3: Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.  This defines my_list as a list in the range 1000 to 10000. It uses a for statement to look at all numbers in this list and if they are divisible by 6 and not divisible by 12 they are printed as a list.  
 
 Question 4: This program asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and,if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+I referenced https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff for this question. I wanted to run the program without defining the Col function using the while, if and ifelse loop. 
 
 Question 6: Write a program that takes a user input string and outputs every second word.
 References: 
