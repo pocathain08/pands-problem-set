@@ -4,18 +4,30 @@
 
 x = int(input("Please enter a positive integer: "))
 
-New_list = []
+#New_list = []
 
-#while x > 1:
+while x > 1:
         #New_list = New_list + i
         #for i in range(1, x+1):
-if x % 2 == 0:
-        New_list = (x//2)      
+        if x % 2 == 0:
+                print (x // 2)
+                x = x//2
 
-elif x % 2 !=0:
-         New_list = ((x*3)+1)
+        elif x % 2 != 0:
+                print ((3 * x) + 1)
+                x = ((3 * x) + 1)
+                
 
-Print: (New_list)
+
+#n = input("Give me a number: ")
+#while n != 1:
+ #   n = collatz(int(n))
+  #      New_list = (x//2)      
+
+#elif x % 2 !=0:
+ #        New_list = ((x*3)+1)
+
+#Print: (New_list)
          
 #Print (New_list)
                         
