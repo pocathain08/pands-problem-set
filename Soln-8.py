@@ -4,5 +4,5 @@
 import datetime
 
 #https://stackoverflow.com/q/415511
-x=(datetime.datetime.now().strftime('%A, %B %dth %Y at %H:%M:'))
+x=(datetime.datetime.now().strftime('%A, %B, %d, %Y, %H:%M:'))
 print (x)
