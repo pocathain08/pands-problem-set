@@ -4,11 +4,11 @@
 import datetime
 
 day = (datetime.datetime.now().strftime(' %d'))
-if day == 1:
+if day == (1, 11, 31):
     Ord = "st"
-if day == 2:
+if day == (2, 22):
     Ord = "nd"
-if day == 3:
+if day == (3, 23):
     Ord = "rd"
 else:
     Ord = "th"
