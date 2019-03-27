@@ -1,9 +1,12 @@
 #This program returns today’s date and time
-#Monday, January 10th 2019 at 1:15p 
+#Monday, January 10th 2019 at 1:15pm
+#Peadar O Cathain 
 
 import datetime
 
 day = (datetime.datetime.now().strftime(' %d'))
+#To get the ordinal numbers for the date.
+#Ord numbers to added using an f string
 if day == (1, 11, 31):
     Ord = "st"
 if day == (2, 22):
