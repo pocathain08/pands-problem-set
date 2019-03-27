@@ -19,7 +19,7 @@ else:
 #https://stackoverflow.com/q/415511
 #https://stackoverflow.com/questions/1759455/how-can-i-account-for-period-am-pm-with-datetime-strptime
 x=(datetime.datetime.now().strftime(f'%A, %B %d{Ord} %Y, at %I:%M %p'))
-#Account for 1st, 2nd, 3rd, etc using an f string
+#Account for ordinal numbers using an f string
 
 print (x)
 
