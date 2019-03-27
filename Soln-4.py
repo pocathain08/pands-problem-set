@@ -1,10 +1,24 @@
 # python collatz 25 Feb 2019
 #
 
+while True:
+    try:
+        x = int (input ("Please enter a positive integer: "))
 
-x = int(input("Please enter a positive integer: "))
-
-#New_list = []
+# If a non-integer is entered by the user
+    except ValueError:
+        print("That's not a positive integer, please try again!")
+        #Retruns to the start of the while loop
+        continue
+    
+# Need to deal wth negative integers 
+    if x < 1:
+        print("That's not a positive integer, please try again!")
+        #Retrun to the start of the while True: loop
+        continue
+    
+    else:
+        break
 
 while x > 1:
         #New_list = New_list + i
@@ -19,28 +33,3 @@ while x > 1:
                 
 
 
-#n = input("Give me a number: ")
-#while n != 1:
- #   n = collatz(int(n))
-  #      New_list = (x//2)      
-
-#elif x % 2 !=0:
- #        New_list = ((x*3)+1)
-
-#Print: (New_list)
-         
-#Print (New_list)
-                        
-        #i= i-1
-
-
-
-#def colz(n):    # write Collatz series up to n
- #   """Print a Collatz series up to n."""
-  #  a, b = 0, 1
-   # while a < n:
-    #    print(a, end=' ')
-     #   a, b = b, a+b
-    #print()
-
-#fib (2000)
