@@ -20,16 +20,25 @@ while True:
     else:
         break
 
-while x > 1:
-        #New_list = New_list + i
-        #for i in range(1, x+1):
-        if x % 2 == 0:
-                print (x // 2)
-                x = x//2
+Soln = list()
 
-        elif x % 2 != 0:
-                print ((3 * x) + 1)
-                x = ((3 * x) + 1)
+while x > 1:
+        
+    if x % 2 == 0:
+        print (x // 2)
+
+        #(x // 2) = Soln
+        #x += (Soln)
+                #
+        x = x//2
+
+    elif x % 2 != 0:
+        print ((3 * x) + 1)
+        #((3 * x) + 1) = (Soln)
+                #
+        x = ((3 * x) +1)
+
+        #print (Soln)
                 
 
 
