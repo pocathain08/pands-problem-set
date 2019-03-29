@@ -11,8 +11,11 @@ for x in range(5):
     b = x**2
     c = 2**x
 
-    y = (a, b, c)
+    #y = (a, b, c)
 
-    print (y)
+    #print (y)
 
+plt.plot(x,b(x))
+
+plt.show()
 
