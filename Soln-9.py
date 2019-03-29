@@ -3,19 +3,27 @@
 #Peadar O Cathain 26 Mar 2019
 #Ref Section 7.2 in Python Tutorial
 
+import sys
 
+with open("Moby Dick.txt", "r") as f:
+    
+    print("Title;", sys.argv[1])
+#This will print the second arguement from the Command line
+#using sys.argv[1:] will print everything bar the filename (Soln-9.py)
+#Ref: Python Tutorial 7.2
+#with open("Moby Dick.txt", "r") as f: #opens file in same directory
 
 #Ref:https://stackoverflow.com/questions/47062493/how-can-i-get-python-to-read-every-nth-line-of-a-txt-file
-with open("file.txt", "r") as f:
     for line in f.read().split("\n")[::2]:
+    #\n =go to a new line, [::2] every second line
         print(line)
 
-f = open('myfile.txt', 'r') #opens file in same directory, ../myfile.txt Can use abs or rel paths to access
-#Tend to keep file in same location. Note w overwrites files. \n =go to a new line
+#f = open('myfile.txt', 'r') , ../myfile.txt Can use abs or rel paths to access
+#Tend to keep file in same location. Note w overwrites files. 
 
-s = f.read() #reads file
+#s = f.read() #reads file
 
-f.close() #Closes the file
+#f.close() #Closes the file
 
 
 
