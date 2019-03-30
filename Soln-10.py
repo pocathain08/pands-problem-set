@@ -6,16 +6,22 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-for x in range(5):
-    a = x
-    b = x**2
-    c = 2**x
+import matplotlib.patches as mpatch
 
-    #y = (a, b, c)
+X = np.arange(0.,4., 0.001)
+# defines the np arrange specified, in this e.g. 0 to 5 in interval of 0.001)
+A = X
+B = X**2
+C = 2**X
+#Defines the functions, for reuse if necessery
 
-    #print (y)
+#Add legend, Ref: https://matplotlib.org/users/legend_guide.html
+legend = mpatch.Patch(color='black', label='Red:x=y, Blue:x^2, Green: x=2^x')
+plt.legend(handles=[legend])
 
-plt.plot(x,b(x))
+plt.plot(X, A, 'r', X, B, 'b', X, C, 'g')
+#I could also have used the actual functions, i.e. plt.plot(X, X, 'r', X, X**2, 'b', X, 2**X, 'g' )
 
 plt.show()
+# To get a graphic of the Plot
 
