@@ -5,20 +5,31 @@
 
 import sys
 
-x = (sys.argv[1:])
+for arg in sys.argv[1:]:
+    if arg == ("Moby Dick"):
+        with open("Moby Dick.txt", "r") as f:
+            for line in f.read().split("\n")[::2]:
+                print(line)
+                f.close()
+
+    #elif arg != ("Moby Dick"):
+        #print ("Please enter name of file in "".")
+                
+                
+
 #This will print the second arguement from the Command line
 #using sys.argv[1:] will print everything bar the filename (Soln-9.py)
 #Ref: Python Tutorial 7.2
 
-if len(x) !=1:
-    print ("Please enter title as one word, seperate words with _")
+#if len(x) !=1:
+#    print ("Please enter title as one word, seperate words with _")
 
-if x == ("Moby_Dick"):
-    with open("Moby Dick.txt", "r") as f: 
+#if x == ("Moby_Dick"):
+#    with open("Moby Dick.txt", "r") as f: 
     #opens the file as f, if f is in same directory.
 
 #Ref:https://stackoverflow.com/questions/47062493/how-can-i-get-python-to-read-every-nth-line-of-a-txt-file
-        for line in f.read().split("\n")[::2]:
+ #       for line in f.read().split("\n")[::2]:
     #\n =go to a new line, [::2] every second line
             
             print(line)
