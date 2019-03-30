@@ -12,8 +12,8 @@ for arg in sys.argv[1:]:
                 print(line)
                 f.close()
 
-    #elif arg != ("Moby Dick"):
-        #print ("Please enter name of file in "".")
+    elif arg != ("Moby Dick"):
+        print("That title is not available or should be entered in Quotation Marks.")
                 
                 
 
@@ -32,7 +32,7 @@ for arg in sys.argv[1:]:
  #       for line in f.read().split("\n")[::2]:
     #\n =go to a new line, [::2] every second line
             
-            print(line)
+            
 
 #f = open('myfile.txt', 'r') , ../myfile.txt Can use abs or rel paths to access
 #Tend to keep file in same location. Note w overwrites files. 
