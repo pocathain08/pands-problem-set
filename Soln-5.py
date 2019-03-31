@@ -3,6 +3,7 @@
 #Peadar O Cathain
 
 while True:
+#If x is not a integer, it will return a valueError, this will bring it back to the try loop
     try:
         x = int (input ("Please enter a positive integer: "))
 
