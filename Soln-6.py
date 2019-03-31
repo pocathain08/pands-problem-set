@@ -19,5 +19,6 @@ for i in range(len(ssplit)):
     if i % 2 != 1:
     #selects every second word by picking out the odd words    
         print (ssplit[i])
+        #This prints the words with an index i, defined by the if loop above.
         
 
