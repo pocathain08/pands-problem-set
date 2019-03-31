@@ -22,14 +22,12 @@ while True:
         #Exit the while True: loop and continue with the program
         break 
 # Want to have the option of setting how close to the actual Sq Root the answer
-#will be.
-y = float (input ("What is the tolerance +/-: "))    
-#The est is the estimate inputed for the root of x.
-est = x//2 #float (input ("Please enter your estimate: "))
+#will be, i.e. within y of the actual tolerance.
+y = float (input ("What is the tolerance +/-: ")) 
 
-#if abs((est*est)-x) < y:
-    #print (f"That is a good estimate, it is within {y} of the exact square root of {x}.")
-    #If the est is within y of root x, the program should break using the elif loop
+#This is a crude est is the estimate inputed for the root of x, it starts the calculations.
+est = x//2 
+
 if abs((est*est)-x) > y:
 #Ref Lecture notes
 #The while loop iterates and refines the inputed estimate until it is within 
