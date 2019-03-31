@@ -38,6 +38,7 @@ Write a program that takes a user input string and outputs every second word.
 
 Soln:
 
+
 Ref: https://docs.python.org/3/tutorial/introduction.html#strings https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3
 
 Question 7: 
@@ -45,6 +46,8 @@ Write a program that that takes a positive floating point number as input and ou
 an approximation of its square root.
 
 Soln:
+This solution can be amended to ask the user to input an estimate, by adding the following: est =(input ("Please enter your estimate: ")). If this estimate is within the stated tolerance, if abs((est*est)-x) < y, will return (f"That is a good estimate, it is within {y} of the exact square root of {x}."). This is an f-string. This also breaks the elif loop.
+If the est is not within the tolerance, the program runs using the calculation. 
 
 
 Question 8: 
