@@ -3,17 +3,21 @@
 
 #https://stackoverflow.com/questions/22476854/plotting-function-from-python
 import numpy as np
+#Thisi is required for the Math
 
 import matplotlib.pyplot as plt
+#This is required for the plotting
 
 import matplotlib.patches as mpatch
+#This is required for the legend
 
 X = np.arange(0.,4., 0.001)
 # defines the np arrange specified, in this e.g. 0 to 5 in interval of 0.001)
 A = X
 B = X**2
 C = 2**X
-#Defines the functions, for reuse if necessery
+#Defines the functions, for reuse if necessery. 
+#Not absolutely necessary, as outlined below
 
 #Add legend, Ref: https://matplotlib.org/users/legend_guide.html
 legend = mpatch.Patch(color='black', label='Red:x=y, Blue:x^2, Green: x=2^x')
