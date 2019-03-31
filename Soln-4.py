@@ -5,7 +5,10 @@
 #it by three and add one. 
 #Peadar O Cathain 25 Feb 2019
 
+
+#Ref https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 while True:
+    #If x is not a integer, it will return a valueError, this will bring it back to the try loop
     try:
         x = int (input ("Please enter a positive integer: "))
         # Ask the used to enter an integer
