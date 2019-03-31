@@ -55,6 +55,11 @@ Write a program that outputs today’s date and time in the format ”Monday, Ja
 10th 2019 at 1:15pm”.
 
 Soln:
+strftime() converts a tuple or struct_time representing a time as returned by gmtime() or localtime() to a string as specified by the format argument.
+If t is not provided, the current time as returned by localtime() is used. format must be a string. An exception ValueError is raised if any field in t is outside of the allowed range.
+This solution was very much relaint on the following Ref:
+https://www.tutorialspoint.com/python/time_strftime.htm.
+
 
 Question 9: 
 Write a program that reads in a text file and outputs every second line. The program
