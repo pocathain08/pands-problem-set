@@ -3,6 +3,7 @@
 #Peadar O Cathain 
 
 import datetime
+#Imported for the Python library.
 
 day = (datetime.datetime.now().strftime(' %d'))
 #To get the ordinal numbers for the date.
@@ -19,7 +20,7 @@ else:
 #https://stackoverflow.com/q/415511
 #https://stackoverflow.com/questions/1759455/how-can-i-account-for-period-am-pm-with-datetime-strptime
 x=(datetime.datetime.now().strftime(f'%A, %B %d{Ord} %Y, at %I:%M %p'))
-#Account for ordinal numbers using an f string
+##Account for ordinal numbers using an f string
 
 print (x)
 
