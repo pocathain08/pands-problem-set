@@ -15,9 +15,7 @@ while True:
         print("That's not a positive integer, please try again!")
         #Retruns to the start of the while loop
         continue
-    #else:
-        
-        #break
+    
 # Need to deal wth negative integers 
     if x < 1:
         print("That's not a positive integer, please try again!")
@@ -34,6 +32,7 @@ sum = 0
 # EG for x = 5, range (1,x) is 1,2,3,4.
 for i in range (1, x+1):
 # sum function, adds all the numbers in the range 1 to x + 1.
+# x+1 need to be used as python starts counting at 0
     sum = sum + i 
 # prints the answer
 print ("The sum of first", x, "numbers is: ", sum) 
