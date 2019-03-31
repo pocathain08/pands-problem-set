@@ -5,6 +5,8 @@
 import datetime
  #Imports the daterime function from python library
 
+#This is going to use an if, else loop.
+
 if datetime.datetime.today().weekday() == (1, 3): 
 # 1,3 refers to Tuesday and Thursday in Python.
     print("Yes - today begins with a T")
