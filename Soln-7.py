@@ -29,11 +29,14 @@ y = float (input ("What is the tolerance +/-: "))
 est = x//2 
 
 if abs((est*est)-x) > y:
-#Ref Lecture notes
+#Ref Lecture notes.
 #The while loop iterates and refines the inputed estimate until it is within 
 #the tolerance set in y.
     while abs((est*est)-x)> y:
+        #Abs is absolute value, i.e., the returned value is positive. 
+        #The calculation squares the est and checks to see if its within y
         est-=((est*est)-x)/(2*est)
+        #This updated the estimate it it si not within the y tolerance. 
 #Use of an f string to print the answer. Indent the print to keep within the 
 #elif loop in line 33.
     print (f"{est} is within {y} of the exact square root {x}.")
